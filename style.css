@@ -650,10 +650,12 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 600;
+    color: #1b1b1b!important;
 }
-
+a:hover {
+    color: gray;
+}
 .container {
     max-width: 1000px;
 }
@@ -775,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #44332C!important;
+    color: #c27956!important;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +824,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-ok.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -972,6 +974,9 @@ h4 {
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
+    }
+    .navbar-nav>li>a:hover {
+        color: blue;
     }
     .bloc {
         padding-left: 0;
