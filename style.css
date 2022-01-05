@@ -661,11 +661,11 @@ a:hover {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 50px;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .statement-bloc-text {
@@ -773,11 +773,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C3561A;
 }
 
 .tc-white {
-    color: #c27956!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
